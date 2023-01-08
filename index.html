@@ -10,45 +10,127 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <!--Caso queira alterar algo especificamente somente em uma página, 
+        é mais indicado abrir uma tag<style> na própria página, do que levar ao arwuivo css -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header> 
+
+    <header>
         <center>
-        <img id="profile" src="img/foto.jpeg" width="300">
-        <h1>Marília Branco</h1>
+            <img id="profile" src="img/foto.jpeg" width="300">
+            <h1>Marília Branco</h1>
         </center>
+           
     </header>
 
     <main>
-        
+
         <p>Formada em Estética e Cosmética, no momento passando por uma transição de carreira.
-            Atualmente cursando 3° período de Análise e Desenvolvimento de Sistemas, com grandes expectativas para o mercado de trabalho.  </p>
-        <a href="https://www.linkedin.com/in/mar%C3%ADlia-branco-582975193/"><i class="fa fa-linkedin-square" style="font-size:20px;color:#a872d2"></i> LINKEDIN</a>
-        
+            Atualmente cursando 3° período de Análise e Desenvolvimento de Sistemas, com grandes expectativas para o
+            mercado de trabalho. </p>
+        <a href="https://www.linkedin.com/in/mar%C3%ADlia-branco-582975193/"><i class="fa fa-linkedin-square"
+                style="font-size:20px;color:#a872d2"></i> LINKEDIN</a>
+
         <h3>Cursos e Especializações</h3>
-        
-        <li> Projetos Ágeis com Scrum</li>
-        <li> Java - JDK e JRE</li>
-        <li> MYSQL (Workbench)</li>
-        <li> Com Dominío Digital - SOFTEX</li>
+
+
+    <li> Projetos Ágeis com Scrum</li>
+    <li> Java - JDK e JRE</li>
+    <li> MYSQL (Workbench)</li>
+    <li> Com Dominío Digital - SOFTEX</li>
 
         <h3>Idiomas</h3>
         <p>
-            INGLÊS -AVANÇADO <br/>
-            Curso UPTIME <br/>
+            INGLÊS -AVANÇADO <br />
+            Curso UPTIME <br />
             <span style='color:#403053;'>Concluído em 2021.1</span>
         </p>
 
         <h3>Hobbies</h3>
         <li> <a href="leituras.html" target="_blank">Livros</a> </li>
         <li> <a href="musicas.html" target="_blank">Musicas</a> </li>
-        <li> <a href="filmes.html" target="_blank">Filmes</a> </li>
+        <li> <a href="filmes.html" target="_blank">Filmes</a></li>
 
-        
+
     </main>
-    
+
+    <div class="borda">
+        <table>
+            <thead>
+                <h3>Serviços</h3>
+            <tr>
+                <th> <h4>Curso</h4></th>
+                <th> <h4>Descrição</h4> </th>
+                <th> <h4>Preço</h4> </th>
+                <th> <h4>Localidade</h4></th>
+
+            </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+                <td> Scrum</td>
+                <td> Metodologias Ágeis </td>
+                <td> R$150,00 </td>
+                <td rowspan="3">Recife</td>
+                    
+            </tr>
+
+            <tr>
+                <td> Java</td>
+                <td> Programação </td>
+                <td> R$500,00 </td>
+            </tr>
+
+            <tr>
+                <td> Python</td>
+                <td> Facilidiade </td>
+                <td> R$250,00 </td>
+            </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                <th colspan="2">
+                <h4>Valor Total</h4>
+                </th>
+                <td>R$900,00</td>
+            
+            </tr></tfoot>
+        </table>
+
+        <table>
+            <thead>
+                <h3>Experiências Profissionais</h3>
+                <tr>
+                    <th><h4>Data de Início</h4></th>
+                    <th><h4>Data de Saída</h4></th>
+                    <th><h4>Cargo</h4></th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>19/02/2019</td>
+                    <td>01/06/2022</td>
+                    <td>Teleatendente bilíngue</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <h3>Formulário</h3>
+
+    <p>Inscreva-se para ficar por dentro dos meus projetos e ideias inovadoras.</p>
+
+    <a href="formularios.html" target="_blank" ></a> <button class="button"> Inscrever-se </button> </a>
 
     <footer>
         <p>Criado por Marília branco ©2023</p>

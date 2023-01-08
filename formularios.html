@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center><h1>Formulário</h1></center>
+        
+
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome" placeholder="Insira seu nome">
+        <br><br>
+
+        <label for="data-nasc">Data de Nascimento:</label>
+        <input type="date" name="data-nasc" id="data-nasc">
+        <br><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco">
+        <br><br>
+
+
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">Cidade:
+            <option value="cab">Cabo</option>
+            <option value="jab">Jaboatao</option>
+            <option value="oli">Olinda</option>
+            <option value="rec" selected>Recife</option>
+        </select>
+        <br><br>
+
+        <label for="est-civil">Estado Civi:</label><br>
+        <input type="radio" name="est-civil" id="solteiro"> Solteiro/a <br>
+        <input type="radio" name="est-civil" id="casado">Casado/a <br>
+        <input type="radio" name="est-civil" id="viuvo">Viúvo <br>
+        
+        <br>
+        <label for="est-civil">Preferências:</label> <br>
+        <input type="checkbox" name="preferencias" id="preferencia1"> Livros <br>
+        <input type="checkbox" name="preferencias" id="preferencia2"> Músicas <br>
+        <input type="checkbox" name="preferencias" id="preferencia3"> Filmes <br>
+
+        <br>
+        
+
+        <div class="flex">
+            <label for="Mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        
+        
+        <input type="submit" value="Enviar" class="button">
+        <input type="submit" value="Limpar" class="button">
+
+        
+
+
+    </form>
+</body>
+</html>
