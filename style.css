@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+/*{ utilizada para zerar as mergens da página e você estilizar do zero
+    margin: 0px;
+    padding: 0px;
+}*/
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #e7d6fa95 ;
     color: #1d1626;
+    margin: auto 200px;
 }
 
 #profile{
@@ -74,4 +80,44 @@ footer{
 .button:hover {
     background: #f9f9f9;
     color: #a77ce4;
+}
+
+hr{
+    border-style: solid; ;
+    border-color: #9a07ad;
+    border-width: 1px 0px 0px 0px;
+    height: 20px;
+}
+
+
+
+.elementos {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #b487b9;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.linhas {
+    cursor: pointer;
+}
+
+.span {
+    width: 30px;
+    height: 4px;
+    background-color: rgb(97, 58, 107);
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.botao {
+    display: none;
 }
