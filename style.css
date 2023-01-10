@@ -35,6 +35,7 @@ a{
     text-decoration: none;
     color: #a77ce4;
     font-weight: bold;
+    display: inline-block;
 }
 
 a:hover {
@@ -89,8 +90,6 @@ hr{
     height: 20px;
 }
 
-
-
 .elementos {
     display: flex;
     justify-content: space-evenly;
@@ -120,4 +119,18 @@ hr{
 
 .botao {
     display: none;
+}
+
+.cabecalho{
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    width: 75%
+}
+
+.filme{
+    position: relative;
+    left: 50px ;
+    bottom: 100px;
+
 }
