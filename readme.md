@@ -1,7 +1,7 @@
 # Site de marilia
 
 ### preview
-![](/img/screen.png)
+![](/img/page.png)
 
 ## Página criada no curso de capacitação Full Stack - Treina Recife
 
